@@ -13,6 +13,7 @@ To build and install clock software:
 10) Select "No OTA (Large APP)" in the Tools->Partition Scheme menu
 11) Plug the clock into a USB port and select its port in the Tools->Port menu
 12) Change code and compile and upload to clock using the Sketch->Upload menu
+13) To debug, add Serial.println statements in the code and start the serial monitor from the Tools->Serial Monitor menu
 
 To set clock:
 
