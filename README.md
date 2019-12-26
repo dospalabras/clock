@@ -4,12 +4,15 @@ To build and install clock software:
 2) Run arduino development application and select the board manager in the Tool->Board->Board Manager menu
    and search for esp32 and install the esp32 board libraries.
 3) Select and install Adafruit NeoPixel library from the Sketch->Include Library->Manage Libraries... menu
-4) git clone https://github.com/dospalabras/clock.git
-5) Open Clock.ino in the arduino development application
-6) Select WEMOS LOLIN from the Tools->Board menu
-7) Select "No OTA (Large APP)" in the Tools->Partition Scheme menu
-8) Plug in the clock into a USB port and select its port in the Tools->Port menu
-9) Change code and compile and upload to clock using the Sketch->Upload menu
+4) Select and install ESP32 BLE Arduino library from the Sketch->Include Library->Manage Libraries... menu
+5) Select and install Wifi library from the Sketch->Include Library->Manage Libraries... menu
+6) Select and install Time library from the Sketch->Include Library->Manage Libraries... menu
+7) git clone https://github.com/dospalabras/clock.git
+8) Open Clock.ino in the arduino development application
+9) Select WEMOS LOLIN from the Tools->Board menu
+10) Select "No OTA (Large APP)" in the Tools->Partition Scheme menu
+11) Plug in the clock into a USB port and select its port in the Tools->Port menu
+12) Change code and compile and upload to clock using the Sketch->Upload menu
 
 To set clock:
 
