@@ -11,7 +11,7 @@ To build and install clock software:
 8) Open Clock.ino in the arduino development application
 9) Select WEMOS LOLIN from the Tools->Board menu
 10) Select "No OTA (Large APP)" in the Tools->Partition Scheme menu
-11) Plug in the clock into a USB port and select its port in the Tools->Port menu
+11) Plug the clock into a USB port and select its port in the Tools->Port menu
 12) Change code and compile and upload to clock using the Sketch->Upload menu
 
 To set clock:
