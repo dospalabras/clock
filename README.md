@@ -1,7 +1,7 @@
 To build and install clock software:
 
-1) Install arduino development application from https://www.arduino.cc/en/main/software
-2) Run arduino development application and select the board manager in the Tool->Board->Board Manager menu
+1) Install the Arduino IDE from https://www.arduino.cc/en/main/software
+2) Run the Arduino IDE and select the board manager in the Tool->Board->Board Manager menu
    and search for esp32 and install the esp32 board libraries.
 3) Select and install Adafruit NeoPixel library from the Sketch->Include Library->Manage Libraries... menu
 4) Select and install ESP32 BLE Arduino library from the Sketch->Include Library->Manage Libraries... menu
