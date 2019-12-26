@@ -17,8 +17,8 @@ To build and install clock software:
 
 To set clock:
 
-1) Download the Bluefruit application to your phone
-2) Run Bluefruit and connect to the clock
+1) Install the Bluefruit application to your phone
+2) Run the Bluefruit application and connect to the clock
 3) Select the UART service
 4) Type in the name of the wifi network
 5) Type in the wifi network password.
