@@ -8,7 +8,7 @@ To build and install clock software:
 5) Select and install Wifi library from the Sketch->Include Library->Manage Libraries... menu
 6) Select and install Time library from the Sketch->Include Library->Manage Libraries... menu
 7) git clone https://github.com/dospalabras/clock.git
-8) Open Clock.ino in the arduino development application
+8) Open Clock.ino in the arduino development application using the File->Open menu
 9) Select WEMOS LOLIN from the Tools->Board menu
 10) Select "No OTA (Large APP)" in the Tools->Partition Scheme menu
 11) Plug the clock into a USB port and select its port in the Tools->Port menu
