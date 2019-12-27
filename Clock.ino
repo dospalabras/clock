@@ -395,9 +395,15 @@ int wifiNetworkCount = 0;
 
 int scanWifi()
 {
+    WiFi.disconnect();
     wifiNetworkCount = WiFi.scanNetworks();
-    
-    if (wifiNetworkCount == 0) {
+
+    if (wifiNetworkCount < 0) {
+       BLEPrint("Wifi scan failed.\n");
+       writeInfo("", "", gmtOffset);
+       state = 0;     
+    }
+    else if (wifiNetworkCount == 0) {
         BLEPrint("No Wifi networks found:\n");
     } 
     else {
