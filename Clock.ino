@@ -13,6 +13,7 @@
 
 std::string name = "Clock";
 
+bool displayClockTicks = true;
 struct tm timeinfo;
 
 int state = 0;
@@ -137,7 +138,7 @@ void clock(int hour, int minute, int second, int jiffy)
       {
         c.b += 1;
       }   
-      else if (c.r == 0 && c.g == 0 && c.b == 0 && (ii % 5) == 0)
+      else if (displayClockTicks && c.r == 0 && c.g == 0 && c.b == 0 && (ii % 5) == 0)
       {
         c.r += 1;
         c.g += 1;
