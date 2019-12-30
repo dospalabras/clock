@@ -5,16 +5,14 @@ To build and install clock software:
 3) Add https://dl.espressif.com/dl/package_esp32_index.json into the Arduino->Preferences Additional Board Manager URLs
 4) Select the board manager in the Tool->Board->Board Manager menu and search for esp32 and install the esp32 board libraries.
 5) Select and install NeoPixelBus by Makuna library from the Sketch->Include Library->Manage Libraries... menu
-6) Select and install ESP32 BLE Arduino library from the Sketch->Include Library->Manage Libraries... menu
-7) Select and install Wifi library from the Sketch->Include Library->Manage Libraries... menu
-8) Select and install Time library from the Sketch->Include Library->Manage Libraries... menu
-9) git clone https://github.com/dospalabras/clock.git
-10) Open Clock.ino in the Arduino IDE using the File->Open menu
-11) Select WEMOS LOLIN from the Tools->Board menu
-12) Select "No OTA (Large APP)" in the Tools->Partition Scheme menu
-13) Plug the clock into a USB port and select its port in the Tools->Port menu
-14) Change code and compile and upload to clock using the Sketch->Upload menu
-15) To debug, add Serial.println statements in the code and start the serial monitor from the Tools->Serial Monitor menu and use 115200 baud.
+6) Select and install Time library from the Sketch->Include Library->Manage Libraries... menu
+7) git clone https://github.com/dospalabras/clock.git
+8) Open Clock.ino in the Arduino IDE using the File->Open menu
+9) Select WEMOS LOLIN from the Tools->Board menu
+10) Select "No OTA (Large APP)" in the Tools->Partition Scheme menu
+11) Plug the clock into a USB port and select its port in the Tools->Port menu
+12) Change code and compile and upload to clock using the Sketch->Upload menu
+13) To debug, add Serial.println statements in the code and start the serial monitor from the Tools->Serial Monitor menu and use 115200 baud.
 
 To set clock:
 
